@@ -1,6 +1,7 @@
 # Section 1-1 – Container, Dependency and IOC
 
 • What is dependency injection and what are the advantages of using it?
+
 DI es el proceso en el cual un servicio externo, por ejemplo un framework, establece las interelaciones entre partes de la aplicacion/ estable las dependencias entre clases.
 Reduce el acoplamiento.
 Aumenta la mantenibilidad (los cambios se hacen en los bean dependiendo de la necesidad)
@@ -8,11 +9,13 @@ Promueve el uso de interfaces.
 
 
 • What is an interface and what are the advantages of making use of them in Java?
+
 Interface, es un tipo abstracto, como una clase que define un comportamiento que pueden metodos sin cuerpo que debe ser implentado por una clase.
 Reduce el acoplamiento, las clases no dependen de una entidad concreta
 
 
 • What is an ApplicationContext?
+
 Es una enviroment que gestiona los beans (ciclo de vida de los beans)
 Se inicia con una configuracion que puede ser XML o Java based
 Se encarga de inicializar todos los beans antes de su primer uso
